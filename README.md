@@ -1,36 +1,36 @@
 # LogicGate Calculator
 
-Este é um simples programa em C que avalia expressões booleanas usando macros para representar operadores lógicos como AND, OR e NOT. A avaliação é realizada de acordo com as regras booleanas convencionais.
+This is a simple C program that evaluates boolean expressions using macros to represent logical operators such as AND, OR, and NOT. The evaluation is performed according to conventional boolean rules.
 
-## Funcionalidades
+## Features
 
-- Avaliação de expressões booleanas usando AND, OR e NOT.
-- Utiliza macros para representar operadores lógicos.
-- Pode lidar com expressões booleanas mais complexas.
+- Boolean expression evaluation using AND, OR, and NOT.
+- Utilizes macros to represent logical operators.
+- Can handle more complex boolean expressions.
 
-## Como Usar
+## How to Use
 
-1. **Compilação:**
-   - Use um compilador C, como o GCC, para compilar o código.
+1. **Compilation:**
+   - Use a C compiler, such as GCC, to compile the code.
      ```bash
      gcc -o logicgate logicgate.c -O3 -Wall
      ```
 
-2. **Execução:**
-   - Execute o programa compilado.
+2. **Execution:**
+   - Run the compiled program.
      ```bash
      ./logicgate
      ```
 
-3. **Entrada de Expressões:**
-   - Insira expressões booleanas quando solicitado pelo programa.
-   - Por exemplo: `NOT(OR(1, AND(1, 0)))`
+3. **Input Expressions:**
+   - Enter boolean expressions when prompted by the program.
+   - For example: `NOT(OR(1, AND(1, 0)))`
 
-4. **Resultado:**
-   - O programa exibirá o resultado da expressão inserida.
+4. **Result:**
+   - The program will display the result of the entered expression.
 
-## Exemplos
+## Examples
 
 ```plaintext
-Escreva a operacao booleana: NOT(OR(1, AND(1, 0)))
-Resultado da expressao: 0
+Enter the boolean expression: NOT(OR(1, AND(1, 0)))
+Result of the expression: 0
