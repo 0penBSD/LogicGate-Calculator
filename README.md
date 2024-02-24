@@ -34,3 +34,7 @@ Este é um simples programa em C que avalia expressões booleanas usando macros 
 ```plaintext
 Escreva a operacao booleana: NOT(OR(1, AND(1, 0)))
 Resultado da expressao: 0
+```
+
+## 🇺🇸 English README.MD version:
+[ENGLISH.MD](ENGLISH.MD)
